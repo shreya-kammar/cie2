@@ -1,11 +1,10 @@
+import sys
 
 def square(num):
-    squared = num * num 
-    return squared 
-if __name__ == "__main__":
-   
-   a =  int(input("enter a number:"))
-   
+    squared = num * num
+    return squared
 
-   b = square(a)
-   print("square of ",a,"is",b)   
+if __name__ == "__main__":
+    a = int(sys.argv[1])
+    b = square(a)
+    print("square of ", a, "is", b)
