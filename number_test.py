@@ -1,4 +1,4 @@
-from number.py import square 
+from number import square 
 def square_test():
     
     assert square(5) == 25 
